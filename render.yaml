@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: visa-chine-guide
+    env: static
+    staticPublishPath: .
+    buildCommand: ""
+    branch: main
