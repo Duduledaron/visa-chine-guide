@@ -1,84 +1,171 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guide Visa Chine 2026 — Ressources pour voyageurs français</title>
-    <meta name="description" content="Ressources complètes pour obtenir votre visa chinois depuis la France : types de visa, documents requis, exemptions et centres de dépôt.">
-    <style>
-        :root { --primary: #c0392b; --accent: #e74c3c; --bg: #fafafa; --text: #2c3e50; --card-bg: #fff; }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
-        header { background: linear-gradient(135deg, var(--primary), #922b21); color: #fff; padding: 3rem 1rem; text-align: center; }
-        header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-        header p { font-size: 1.1rem; opacity: 0.9; max-width: 600px; margin: 0 auto; }
-        .container { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
-        .intro { font-size: 1.05rem; margin-bottom: 2rem; text-align: center; }
-        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
-        .card { background: var(--card-bg); border-radius: 10px; padding: 1.5rem; box-shadow: 0 2px 10px rgba(0,0,0,0.08); border-top: 4px solid var(--accent); }
-        .card h2 { color: var(--primary); font-size: 1.2rem; margin-bottom: 0.8rem; }
-        .card p { font-size: 0.95rem; margin-bottom: 1rem; }
-        .card a { color: var(--accent); text-decoration: none; font-weight: 600; }
-        .card a:hover { text-decoration: underline; }
-        .note { background: #fef9e7; border-left: 4px solid #f1c40f; padding: 1rem 1.2rem; border-radius: 4px; margin-bottom: 2rem; font-size: 0.95rem; }
-        footer { text-align: center; padding: 2rem 1rem; font-size: 0.85rem; color: #7f8c8d; border-top: 1px solid #eee; }
-        footer a { color: var(--primary); text-decoration: none; }
-        @media (max-width: 600px) { header h1 { font-size: 1.5rem; } .cards { grid-template-columns: 1fr; } }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ressources visa Chine pour voyageurs français | Guide 2026</title>
+  <meta name="description" content="Tout ce que les voyageurs français doivent savoir sur le visa Chine en 2026 : démarches, exemptions, carte d'arrivée électronique et ressources officielles.">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: #f7f5f0;
+      color: #2c2c2c;
+      line-height: 1.8;
+    }
+    header {
+      background: #1A2B4A;
+      color: #fff;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      line-height: 1.3;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    header p.subtitle {
+      margin-top: 0.75rem;
+      font-size: 1rem;
+      color: #b0bec5;
+      font-style: italic;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+    h2 {
+      font-size: 1.35rem;
+      color: #1A2B4A;
+      margin: 2rem 0 0.75rem;
+      border-left: 4px solid #C0392B;
+      padding-left: 0.75rem;
+    }
+    p { margin-bottom: 1.2rem; }
+    a {
+      color: #C0392B;
+      text-decoration: none;
+      font-weight: 600;
+      border-bottom: 1px solid rgba(192,57,43,0.3);
+      transition: border-color 0.2s;
+    }
+    a:hover { border-color: #C0392B; }
+    .ressources {
+      background: #1A2B4A;
+      border-radius: 8px;
+      padding: 1.75rem 2rem;
+      margin: 2.5rem 0;
+    }
+    .ressources h3 {
+      color: #fff;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      letter-spacing: 0.02em;
+    }
+    .ressources ul {
+      list-style: none;
+      padding: 0;
+    }
+    .ressources ul li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .ressources ul li:last-child { border-bottom: none; }
+    .ressources ul li a {
+      color: #f0c040;
+      border-bottom-color: rgba(240,192,64,0.3);
+    }
+    .ressources ul li a:hover { border-color: #f0c040; }
+    footer {
+      background: #1A2B4A;
+      color: #b0bec5;
+      text-align: center;
+      padding: 1.25rem;
+      font-size: 0.85rem;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Guide Visa Chine 2026</h1>
-        <p>Toutes les ressources pour préparer votre demande de visa chinois depuis la France</p>
-    </header>
-    <div class="container">
-        <p class="intro">
-            Obtenir un visa pour la Chine peut sembler complexe : plusieurs types de visa existent selon la durée et le motif du séjour. 
-            Ce guide rassemble les informations essentielles pour vous orienter dans vos démarches. Pour un accompagnement complet, 
-            consultez <a href="https://visa-chinois.fr">visa-chinois.fr</a>, le site de référence francophone sur le sujet.
-        </p>
 
-        <div class="cards">
-            <div class="card">
-                <h2>Exemption de visa en 2026</h2>
-                <p>
-                    Depuis fin 2023, la Chine accorde une exemption de visa aux ressortissants français pour les séjours de 15 jours maximum. 
-                    Cette mesure, prolongée en 2025 puis en 2026, simplifie considérablement les courts séjours touristiques. 
-                    Il faut toutefois remplir une carte d'arrivée à l'aéroport.
-                </p>
-                <a href="https://visa-chinois.fr/exemption-visa-chine/">En savoir plus sur l'exemption</a>
-            </div>
+<header>
+  <h1>Ressources visa Chine pour voyageurs français</h1>
+  <p class="subtitle">Mise à jour mars 2026 — informations pratiques et officielles</p>
+</header>
 
-            <div class="card">
-                <h2>Carte d'arrivée en Chine</h2>
-                <p>
-                    Que vous voyagiez avec ou sans visa, la carte d'arrivée (arrival card) reste obligatoire. 
-                    Ce formulaire bilingue chinois/anglais se remplit dans l'avion ou à l'arrivée. 
-                    Préparez votre adresse d'hébergement en Chine et votre numéro de vol.
-                </p>
-                <a href="https://visa-chinois.fr/carte-arrivee-chine/">Voir le guide de la carte d'arrivée</a>
-            </div>
+<div class="container">
 
-            <div class="card">
-                <h2>Types de visa chinois</h2>
-                <p>
-                    Visa touristique (L), visa d'affaires (M), visa d'études (X), visa de travail (Z) : chaque catégorie correspond à un motif de séjour précis. 
-                    Les documents requis et les délais de traitement varient selon le type choisi. 
-                    Un dossier bien préparé évite les refus et les retards.
-                </p>
-                <a href="https://visa-chinois.fr">Consulter le guide complet</a>
-            </div>
-        </div>
+  <h2>La Chine, une destination de nouveau accessible</h2>
+  <p>
+    Depuis la réouverture progressive des frontières chinoises, les voyageurs français
+    souhaitant se rendre en Chine continentale font face à un dispositif administratif
+    profondément remanié. Entre les nouvelles procédures dématérialisées, les exemptions
+    de visa élargies et la généralisation de la carte d'arrivée électronique, il est
+    indispensable de s'informer avant tout départ. Le site <a href="https://visa-chinois.fr" target="_blank" rel="noopener">visa-chinois.fr</a>
+    constitue à cet égard une référence centrale pour les ressortissants francophones.
+  </p>
 
-        <div class="note">
-            <strong>Bon à savoir :</strong> les centres de visa chinois en France se trouvent à Paris, Lyon et Marseille. 
-            Les délais de traitement sont généralement de 4 à 7 jours ouvrés pour une demande standard. 
-            Le service express (2 jours) est disponible moyennant un supplément.
-        </div>
-    </div>
-    <footer>
-        <p>Ressources compilées pour les voyageurs français à destination de la Chine.</p>
-        <p>Source principale : <a href="https://visa-chinois.fr">visa-chinois.fr</a></p>
-    </footer>
+  <h2>Visa ou exemption : que prévoit la réglementation 2026 ?</h2>
+  <p>
+    La Chine a étendu en 2024 et 2025 son dispositif d'exemption de visa à de nombreux
+    pays européens, dont la France. Pour des séjours de courte durée, inférieurs à
+    quinze jours, certains ressortissants peuvent entrer sans visa dans des conditions
+    strictement définies : motif du voyage, point d'entrée, itinéraire. Il est impératif
+    de vérifier l'applicabilité de ces mesures à sa situation personnelle avant d'arrêter
+    ses billets, car les conditions évoluent régulièrement par voie réglementaire.
+  </p>
+  <p>
+    Pour les séjours plus longs ou à des fins professionnelles, académiques ou familiales,
+    le visa traditionnel reste la voie obligatoire. La demande s'effectue auprès du
+    Centre de Services pour Demandes de Visa Chinois (CVASC) en France, avec des délais
+    variables selon la période et le type de visa sollicité. Le <a href="https://visa-chinois.fr/exemption-visa-chine-2026/" target="_blank" rel="noopener">guide visa Chine 2026</a>
+    détaille l'ensemble des catégories et les pièces justificatives à réunir.
+  </p>
+
+  <h2>La carte d'arrivée électronique : une étape incontournable</h2>
+  <p>
+    Quelle que soit la modalité d'entrée choisie, visa ou exemption, les voyageurs
+    doivent désormais compléter un formulaire d'arrivée dématérialisé avant d'accéder
+    au territoire chinois. Ce document, souvent appelé e-card ou fiche d'arrivée
+    électronique, remplace les formulaires papier distribués à bord des avions.
+    Son remplissage en amont du vol est vivement recommandé pour fluidifier le passage
+    aux frontières. Les modalités précises sont disponibles sur la page dédiée à la
+    <a href="https://visa-chinois.fr/carte-arrivee-electronique-chine/" target="_blank" rel="noopener">carte d'arrivée électronique</a>.
+  </p>
+
+  <h2>Conseils pratiques avant le départ</h2>
+  <p>
+    La préparation d'un voyage en Chine implique de prendre en compte plusieurs
+    contraintes spécifiques : le pare-feu numérique (Great Firewall) qui bloque
+    les services occidentaux courants, la nécessité de télécharger des applications
+    de paiement mobile en amont, et les exigences sanitaires éventuelles selon
+    l'actualité épidémiologique. Vérifier la validité de son passeport (au moins
+    six mois au-delà de la date de retour) et souscrire une assurance voyage adaptée
+    sont des réflexes fondamentaux.
+  </p>
+  <p>
+    Les ressources officielles chinoises et les consultats français en Chine publient
+    régulièrement des mises à jour. Une veille régulière dans les semaines précédant
+    le départ est fortement conseillée.
+  </p>
+
+  <div class="ressources">
+    <h3>Ressources recommandées</h3>
+    <ul>
+      <li><a href="https://visa-chinois.fr" target="_blank" rel="noopener">visa-chinois.fr — guide complet visa Chine pour francophones</a></li>
+      <li><a href="https://visa-chinois.fr/exemption-visa-chine-2026/" target="_blank" rel="noopener">Exemption visa Chine 2026 : conditions et pays éligibles</a></li>
+      <li><a href="https://visa-chinois.fr/carte-arrivee-electronique-chine/" target="_blank" rel="noopener">Carte d'arrivée électronique Chine : procédure pas à pas</a></li>
+    </ul>
+  </div>
+
+</div>
+
+<footer>
+  <p>Page d'information indépendante — Mise à jour mars 2026</p>
+</footer>
+
 </body>
 </html>
